@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color:rgb(1, 68, 68);
+    height: 100%;
+}
+
+
+
+#particles-js{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.wrapper{
+    padding-top: 5%;
+    padding-right: 25%;
+    padding-left: 25%;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20%;
+    margin-bottom: -30px;
+}
+.wrapper h1 {
+    padding:20px;
+    color: #faae33;
+}
+
+.wrapper h2 {
+    padding:20px;
+    color: white;
+}
+
+.wrapper p {
+    padding:10px;
+    color: white;
+}
+
+footer{
+    font-family: 'Varela Round', sans-serif;
+    height: 75px;
+    bottom: 0;
+    position: relative;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    
+}
+
+footer nav{
+    text-align: center;
+}
+
+footer nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    
+}
+
+footer nav ul li a{    
+    text-decoration: none;    
+    color: white;
+}
+
+footer nav ul li a:visited{
+    color: white;
+}
+footer nav ul li a:hover{
+    color:#faae33;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer p a:visited{
+    color: white;
+}
+footer p a:hover{
+    color:#faae33;
+}
