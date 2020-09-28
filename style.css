@@ -39,12 +39,11 @@ div div{
 .bio{
     
     align-items: center;
-    background-color: rgb(105, 41, 29);
+    background-color: rgb(51, 24, 20);
     height:450px;
     padding: 20px 0px 20px 0px;
     flex-direction: column;
 }
-
 
 
 .bio h2{
@@ -54,7 +53,23 @@ div div{
 .bio p {
     line-height: 30px;
     letter-spacing: 1.5px;
-    padding: 20px 200px 0px 200px;
+    padding: 20px 200px 20px 200px;
+}
+
+.bio a{
+    margin-top: 20px;
+    font-size: 20px;
+    border: white solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.bio a:hover{
+    color: black;
+    background-color: white;
+    transition: all ease 0.5s;
 }
 
 .skills-container{
@@ -130,7 +145,7 @@ div div{
 .contact{
     height:500px;
     flex-direction: column;
-    background-color: rgb(122, 42, 58);
+    background-color: rgb(82, 22, 34);
 }
 
 
@@ -249,7 +264,7 @@ form{
 @media only screen and (max-width: 1024px){
 
     .bio{
-        height: 650px;
+        height: 700px;
     }
 
 
@@ -385,7 +400,7 @@ form{
     }
 
     .bio{
-        height: 650px;
+        height: 700px;
     }
 
     .bio h1{
@@ -416,6 +431,10 @@ form{
 }
 
 @media only screen and (max-width: 360px){
+
+    .bio{
+        height:750px;
+    }
 
     .form-control{
         width: 300px;
